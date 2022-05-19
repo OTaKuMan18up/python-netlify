@@ -1,9 +1,0 @@
-# Settings in the [build] context are global and are applied to all contexts 
-# unless otherwise overridden by more specific contexts.  
-[build]
-    publish = ""
-  # Default build command.
-  command = "python3 -m pip install -U discord.py ; pip install -r requirements.txt"
-
-  # Directory with the serverless Lambda functions to deploy to AWS.
-  # functions = "project/functions/"
